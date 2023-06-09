@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- Nav bar  -->
+    <div class="navbar-middle">
+        <nav class="navbar navbar-inverse">
+            <section class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li class="size "><a href="gamecatalog1.html">Genshin Impact </a></li>
+                    <li class="size"><a href="gamecatalog2.html">Valorant </a></li>
+                    <li class="size"><a href="gamecatalog3.html">Uno</a></li>
+                    <li class="size active"><a href="Gamepicker.html">Game picker</a></li>
+                </ul>
+            </section>
+        </nav>
+    </div>
+    <div style="display:flex; justify-content:center;">
+        <main class="main-container1">
+            <div>
+                <main>
+
+                    <button id="switchButton" class="switchButton" href="#">Switch</button>
+                    <input type="text" id="priceFilterInput">
+                    <button id="priceFilterButton"> Filter now! </button>
+
+                    <input type="number" id="ratingFilterInput">
+                    <button id="ratingFilterButton">Ratings</button>
+
+                    <label for="genreFilter">Selecteer een genre:</label>
+                    <select id="genreFilter">
+                        <option value="FPS">FPS</option>
+                        <option value="MOBA">MOBA</option>
+                        <option value="Action">ACTION</option>
+                        <option value="RPG">RPG</option>
+                        <option value="Simulation">SIMULATION</option>
+                        <option value="Looter-shooter">LOOT-SHOOTER</option>
+                        <option value="Sport">SPORT</option>
+                        <option value="Sandbox">SANDBOX</option>
+                    </select>
+                    <section id="overzicht" class="overzicht">
+                        <h1> Dit is het scherm voor overzicht</h1>
+                    </section>
+
+                    <section id="winkelmandje" class="winkelmandje">
+                        <h1> Dit is het scherm voor winkelmandje</h1>
+                    </section>
+                </main>
+            </div>
+        </main>
+    </div>
+
+    <script src="games.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

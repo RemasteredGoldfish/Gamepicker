@@ -1,1 +1,2 @@
-# Gamepicker
+# Gamecatalog
+Game catalog

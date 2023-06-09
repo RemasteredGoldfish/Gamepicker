@@ -1,0 +1,129 @@
+.main-container {
+    border: 2px solid black;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    width: 1000px;
+
+}
+
+/* .navbar-middle {
+    /* background: #491e1e */
+/* } */
+
+.main-container1 {
+    border: 2px solid black;
+    width: 1000px;
+
+
+
+}
+
+.container {
+    border: 2px solid black;
+    padding: 10px;
+    height: 15px;
+    margin-left: 10px;
+    width: 105px;
+}
+
+#container-right {
+    border: 2px solid black;
+    padding: 10px;
+    height: 15px;
+    display: flex;
+    position: absolute;
+    right: 470px;
+}
+
+#div1 {
+    /* border: 2px solid black; */
+    width: 80%;
+}
+
+#div2 {
+    border-left: 2px solid black;
+    width: 30%;
+    padding: 20px;
+}
+
+.genres {
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.screenshots {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.systeemeisen {
+    line-height: 36px;
+}
+
+.Kopjes {
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.navbar-inverse {
+    width: 1000px;
+}
+
+.navbar-middle {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#gamepicker,
+#cart {
+    margin: 20px;
+}
+
+.game {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.filters {
+    margin-bottom: 10px;
+}
+
+.filters select {
+    margin-right: 10px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.total-price {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.gameBoxStyle {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.switchButton {
+    font-size: 25px;
+}
